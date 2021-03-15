@@ -31,12 +31,12 @@ export const globalStyles = (
     background-color: black;
     font-size: 1.6rem;
     font-feature-settings: 'kern';
-    padding-top: 4rem;
+    overflow: hidden;
 
     ${wallpaper !== undefined &&
     css`
       background-image: url(${wallpaper});
-      background-position: center;
+      background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -54,5 +54,11 @@ export const globalStyles = (
   code,
   pre {
     font-family: ${theme.fonts.monospace};
+  }
+
+  #root {
+    padding-top: 4rem;
+    height: 100%;
+    overflow: scroll;
   }
 `;
