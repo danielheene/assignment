@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.372259fa.chunk.js",
-    "main.js.map": "/static/js/main.372259fa.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8301b63a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8301b63a.js.map",
-    "static/js/2.52449a31.chunk.js": "/static/js/2.52449a31.chunk.js",
-    "static/js/2.52449a31.chunk.js.map": "/static/js/2.52449a31.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.52449a31.chunk.js.LICENSE.txt": "/static/js/2.52449a31.chunk.js.LICENSE.txt",
-    "static/media/wallpaper.5353e9c0.jpg": "/static/media/wallpaper.5353e9c0.jpg"
+    "main.js": "/instana-assignent/static/js/main.372259fa.chunk.js",
+    "main.js.map": "/instana-assignent/static/js/main.372259fa.chunk.js.map",
+    "runtime-main.js": "/instana-assignent/static/js/runtime-main.f9fa4127.js",
+    "runtime-main.js.map": "/instana-assignent/static/js/runtime-main.f9fa4127.js.map",
+    "static/js/2.52449a31.chunk.js": "/instana-assignent/static/js/2.52449a31.chunk.js",
+    "static/js/2.52449a31.chunk.js.map": "/instana-assignent/static/js/2.52449a31.chunk.js.map",
+    "index.html": "/instana-assignent/index.html",
+    "static/js/2.52449a31.chunk.js.LICENSE.txt": "/instana-assignent/static/js/2.52449a31.chunk.js.LICENSE.txt",
+    "static/media/wallpaper.5353e9c0.jpg": "/instana-assignent/static/media/wallpaper.5353e9c0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8301b63a.js",
+    "static/js/runtime-main.f9fa4127.js",
     "static/js/2.52449a31.chunk.js",
     "static/js/main.372259fa.chunk.js"
   ]
