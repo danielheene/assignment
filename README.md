@@ -27,7 +27,8 @@ yarn build
 - I have tried to style the components according to the system-ui / styled-system specs, but I am not a designer and
   trying to define tokens is definitely not my best work here :)
 - I would have liked to implement some unit tests to test the reducer but could not find a good way to test it like
-  doing it with redux reducers. The only thing I have seen was an article in which was described to trigger the actions
-  and test the rendered visual output from DOM. That seemed a bit strange for me and not like a good workaround. Then I
-  didn't spend more time on it.
+  doing it with redux reducers. The only thing I have seen was in an article in which was described to trigger the
+  actions and test the rendered visual output from DOM. That seemed a bit strange for me and not like a good workaround.
+  Then I didn't spend more time on it. Due to some time loss in trying I also skipped testing the representational
+  components as I would only generate snapshots of them.
 - I did not find the time to add Storybook and add an example story to it.
