@@ -1,4 +1,4 @@
-const tsconfig = require('./tsconfig.json');
+const tsconfig = require('./tsconfig.paths.json');
 const paths = Object.keys(tsconfig.compilerOptions.paths || {})
   .map((path) => path.replace('/*', ''))
   .join('|');

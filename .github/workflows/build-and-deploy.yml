@@ -1,0 +1,34 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v1
+
+      - name: Install dependencies
+        if: success()
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install
+
+      - name: Build Website
+        if: success()
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: build
+
+      - name: Deploy Website
+        if: success()
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          CLEAN: true
