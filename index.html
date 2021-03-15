@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Instana Assignment</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.4.0/rxjs.umd.min.js"></script>
+  <script>
+    // rxjs is exposed by
+    // https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.4.0/rxjs.umd.min.js
+
+    const {interval, merge} = rxjs;
+    const {map} = rxjs.operators;
+
+    const createTweetSource = (frequency, account, attribute) => {
+      return interval(frequency).pipe(map(i => ({
+        account,
+        timestamp: Date.now(),
+        content: `${attribute} Tweet number ${i + 1}`
+      })));
+    }
+
+    const tweets$ = merge(
+      createTweetSource(5000, 'AwardsDarwin', 'Facepalm'), createTweetSource(3000, 'iamdevloper', 'Expert'), createTweetSource(5000, 'CommitStrip', 'Funny')
+    );
+  </script>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+</body>
+</html>
