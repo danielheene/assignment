@@ -16,9 +16,6 @@ The task is to create a Twitter-like website. Please read through the document a
 5. It must be possible to toggle between "all tweets" and "liked tweets".
 6. It must be possible to clear the list of tweets.
 
-
-#### data source 
-
 ```js
 // rxjs is exposed by
 // https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.4.0/rxjs.umd.min.js
@@ -45,7 +42,7 @@ tweets.subscribe(console.log.bind(console));
 ---
 
 
-### start this project
+**run local:**
 
 ```bash
 
@@ -54,7 +51,7 @@ tweets.subscribe(console.log.bind(console));
 
 ```
 
-### build this project
+**build project:**
 
 ```bash
 
