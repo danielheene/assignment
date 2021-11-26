@@ -1,8 +1,8 @@
 {
-  "name": "instana-assignment",
+  "name": "assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://danielheene.github.io/instana-assignent/",
+  "homepage": "https://danielheene.github.io/assignent/",
   "scripts": {
     "start": "react-app-rewired start",
     "test": "react-app-rewired test",
