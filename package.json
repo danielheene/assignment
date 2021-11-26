@@ -2,7 +2,7 @@
   "name": "assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://danielheene.github.io/assignent/",
+  "homepage": "https://danielheene.github.io/assignment/",
   "scripts": {
     "start": "react-app-rewired start",
     "test": "react-app-rewired test",
