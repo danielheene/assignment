@@ -3,7 +3,7 @@
 
 ## problem
 
-### description
+#### description
 
 > The task is to create a Twitter-like website. Please read through the document and try to solve the following tasks step-by-step.
 > 
@@ -21,7 +21,7 @@
 >  5. It must be possible to toggle between "all tweets" and "liked tweets".
 >  6. It must be possible to clear the list of tweets.
 
-### data source 
+#### data source 
 
 ```js
 // rxjs is exposed by
@@ -49,7 +49,7 @@ tweets.subscribe(console.log.bind(console));
 ---
 
 
-## start this project
+### start this project
 
 ```bash
 
@@ -58,7 +58,7 @@ tweets.subscribe(console.log.bind(console));
 
 ```
 
-## build this project
+### build this project
 
 ```bash
 
@@ -70,7 +70,7 @@ tweets.subscribe(console.log.bind(console));
 
 ---
 
-### some notes & trade-offs:
+#### some notes & trade-offs:
 
 - I was developing under `node@12.20.1` and `yarn@1.22.10` if there should be any issues due to breaking changes in
   some packages since `node@14` (a `.nvmrc` is also packed).
