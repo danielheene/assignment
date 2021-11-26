@@ -1,25 +1,21 @@
-# assignment-example
+# assignment
 
+The task is to create a Twitter-like website. Please read through the document and try to solve the following tasks step-by-step.
+ 
+1. Create a small web application that runs completely in the browser.
+   - It must be a web-application using react and rxjs.
+   - Make sure that the application is build / running locally.
+2. Take the tweets observable and render it as a list  
+   - Use a Twitter-like structure/style.
+   - Order the list by date descending.
+   - Do not change the tweets observable.
+3. Tweets older than 30 secs should not be shown in the list anymore.
+4. Add the ability to like and unlike tweets.
+   - A liked tweet must look visually different than the other tweets.
+   - Above the list of tweets is a counter that shows the number of liked tweets contained within the list.
+5. It must be possible to toggle between "all tweets" and "liked tweets".
+6. It must be possible to clear the list of tweets.
 
-## problem
-
-#### description
-
-> The task is to create a Twitter-like website. Please read through the document and try to solve the following tasks step-by-step.
-> 
->  1. Create a small web application that runs completely in the browser.
->     - It must be a web-application using react and rxjs.
->     - Make sure that the application is build / running locally.
->  2. Take the tweets observable and render it as a list  
->     - Use a Twitter-like structure/style.
->     - Order the list by date descending.
->     - Do not change the tweets observable.
->  3. Tweets older than 30 secs should not be shown in the list anymore.
->  4. Add the ability to like and unlike tweets.
->     - A liked tweet must look visually different than the other tweets.
->     - Above the list of tweets is a counter that shows the number of liked tweets contained within the list.
->  5. It must be possible to toggle between "all tweets" and "liked tweets".
->  6. It must be possible to clear the list of tweets.
 
 #### data source 
 
